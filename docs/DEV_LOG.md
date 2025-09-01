@@ -2286,3 +2286,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `feat(notebooks): add hands-on computer vision tutorial notebook with transfer learning`
 - **Ref**: `chk-992319`
 
+### Sprint Update: 2025-09-01 13:16:09
+- **Scope**: `style(colab): format notebook markdown headers and badge links`
+- **Ref**: `sync-439312`
+
