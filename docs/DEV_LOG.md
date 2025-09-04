@@ -1074,3 +1074,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(roadmap): publish quarterly community meetup schedule and speaker CFP`
 - **Ref**: `chk-257997`
 
+### Milestone: 2025-09-04 16:57:14
+- **Scope**: `fix(colab): update pip dependencies for Google Colab runtime compatibility`
+- **Ref**: `chk-137208`
+
