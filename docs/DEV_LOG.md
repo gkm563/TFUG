@@ -1066,3 +1066,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `fix(hyperparams): fine-tune learning rate schedule and early stopping patience`
 - **Ref**: `chk-201196`
 
+### Milestone: 2025-09-04 13:13:42
+- **Scope**: `refactor(code): streamline dataset loading pipelines using tf.data.Dataset API`
+- **Ref**: `chk-347323`
+
