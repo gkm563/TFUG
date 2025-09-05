@@ -1078,3 +1078,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `fix(colab): update pip dependencies for Google Colab runtime compatibility`
 - **Ref**: `chk-137208`
 
+### Milestone: 2025-09-05 11:35:31
+- **Scope**: `test(model): verify reproducibility of training loss convergence across seeds`
+- **Ref**: `chk-629932`
+
