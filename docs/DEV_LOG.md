@@ -2310,3 +2310,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `style(colab): format notebook markdown headers and badge links`
 - **Ref**: `sync-660390`
 
+### Sprint Update: 2025-09-07 19:42:11
+- **Scope**: `fix(dataset): update download URLs for public benchmark dataset`
+- **Ref**: `sync-511088`
+
