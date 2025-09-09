@@ -1106,3 +1106,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `feat(notebooks): add hands-on computer vision tutorial notebook with transfer learning`
 - **Ref**: `chk-943715`
 
+### Milestone: 2025-09-09 21:56:37
+- **Scope**: `docs(roadmap): publish quarterly community meetup schedule and speaker CFP`
+- **Ref**: `chk-683250`
+
