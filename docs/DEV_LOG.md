@@ -1130,3 +1130,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `fix(hyperparams): fine-tune learning rate schedule and early stopping patience`
 - **Ref**: `chk-916729`
 
+### Milestone: 2025-09-13 15:32:28
+- **Scope**: `feat(notebooks): add hands-on computer vision tutorial notebook with transfer learning`
+- **Ref**: `chk-341789`
+
