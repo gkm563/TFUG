@@ -1154,3 +1154,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `feat(demo): build interactive Gradio demo interface for community showcase`
 - **Ref**: `chk-268332`
 
+### Milestone: 2025-09-15 21:13:12
+- **Scope**: `chore(meta): update repository license badges and social preview assets`
+- **Ref**: `chk-923133`
+
