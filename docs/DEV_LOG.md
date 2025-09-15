@@ -1146,3 +1146,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `style(notebook): standardize markdown explanations and code cell outputs`
 - **Ref**: `chk-273906`
 
+### Milestone: 2025-09-15 18:47:39
+- **Scope**: `chore(meta): update repository license badges and social preview assets`
+- **Ref**: `chk-861850`
+
