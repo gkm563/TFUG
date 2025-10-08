@@ -1278,3 +1278,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(resources): curate list of open-source datasets and study group reading materials`
 - **Ref**: `chk-676290`
 
+### Milestone: 2025-10-08 09:34:02
+- **Scope**: `refactor(export): standardize SavedModel and ONNX export utility scripts`
+- **Ref**: `chk-975570`
+
