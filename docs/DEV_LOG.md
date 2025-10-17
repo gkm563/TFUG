@@ -1322,3 +1322,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `perf(eval): optimize batch inference throughput using model quantization techniques`
 - **Ref**: `chk-766305`
 
+### Milestone: 2025-10-17 16:44:22
+- **Scope**: `docs(roadmap): publish quarterly community meetup schedule and speaker CFP`
+- **Ref**: `chk-410746`
+
