@@ -1330,3 +1330,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `test(model): verify reproducibility of training loss convergence across seeds`
 - **Ref**: `chk-331855`
 
+### Milestone: 2025-10-18 11:08:30
+- **Scope**: `feat(notebooks): add hands-on computer vision tutorial notebook with transfer learning`
+- **Ref**: `chk-934530`
+
