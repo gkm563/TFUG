@@ -1342,3 +1342,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `fix(hyperparams): fine-tune learning rate schedule and early stopping patience`
 - **Ref**: `chk-218239`
 
+### Milestone: 2025-10-20 14:29:00
+- **Scope**: `test(model): verify reproducibility of training loss convergence across seeds`
+- **Ref**: `chk-664305`
+
