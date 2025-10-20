@@ -1338,3 +1338,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `feat(demo): build interactive Gradio demo interface for community showcase`
 - **Ref**: `chk-747115`
 
+### Milestone: 2025-10-20 12:11:38
+- **Scope**: `fix(hyperparams): fine-tune learning rate schedule and early stopping patience`
+- **Ref**: `chk-218239`
+
