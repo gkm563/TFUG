@@ -1354,3 +1354,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `test(model): verify reproducibility of training loss convergence across seeds`
 - **Ref**: `chk-997809`
 
+### Milestone: 2025-10-22 21:50:39
+- **Scope**: `docs(roadmap): publish quarterly community meetup schedule and speaker CFP`
+- **Ref**: `chk-655967`
+
