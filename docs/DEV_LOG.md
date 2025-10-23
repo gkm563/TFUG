@@ -1358,3 +1358,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(roadmap): publish quarterly community meetup schedule and speaker CFP`
 - **Ref**: `chk-655967`
 
+### Milestone: 2025-10-23 17:25:32
+- **Scope**: `refactor(code): streamline dataset loading pipelines using tf.data.Dataset API`
+- **Ref**: `chk-230701`
+
