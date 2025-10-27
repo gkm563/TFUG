@@ -1378,3 +1378,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(roadmap): publish quarterly community meetup schedule and speaker CFP`
 - **Ref**: `chk-736981`
 
+### Milestone: 2025-10-27 12:17:55
+- **Scope**: `feat(demo): build interactive Gradio demo interface for community showcase`
+- **Ref**: `chk-335561`
+
