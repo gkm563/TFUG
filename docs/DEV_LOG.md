@@ -1506,3 +1506,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `refactor(export): standardize SavedModel and ONNX export utility scripts`
 - **Ref**: `chk-293535`
 
+### Milestone: 2025-11-17 18:34:30
+- **Scope**: `style(notebook): standardize markdown explanations and code cell outputs`
+- **Ref**: `chk-761114`
+
