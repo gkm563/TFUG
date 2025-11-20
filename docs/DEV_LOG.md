@@ -1522,3 +1522,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `fix(colab): update pip dependencies for Google Colab runtime compatibility`
 - **Ref**: `chk-299714`
 
+### Milestone: 2025-11-20 19:49:53
+- **Scope**: `docs(resources): curate list of open-source datasets and study group reading materials`
+- **Ref**: `chk-532774`
+
