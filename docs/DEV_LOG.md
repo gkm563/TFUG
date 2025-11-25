@@ -1562,3 +1562,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `feat(demo): build interactive Gradio demo interface for community showcase`
 - **Ref**: `chk-906409`
 
+### Milestone: 2025-11-25 17:15:57
+- **Scope**: `test(model): verify reproducibility of training loss convergence across seeds`
+- **Ref**: `chk-854454`
+
