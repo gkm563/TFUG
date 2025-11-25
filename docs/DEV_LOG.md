@@ -2674,3 +2674,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `fix(dataset): update download URLs for public benchmark dataset`
 - **Ref**: `sync-288293`
 
+### Sprint Update: 2025-11-25 19:45:11
+- **Scope**: `fix(dataset): update download URLs for public benchmark dataset`
+- **Ref**: `sync-769556`
+
