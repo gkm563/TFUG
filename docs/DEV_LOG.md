@@ -1570,3 +1570,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `feat(demo): build interactive Gradio demo interface for community showcase`
 - **Ref**: `chk-980189`
 
+### Milestone: 2025-11-26 10:07:49
+- **Scope**: `fix(colab): update pip dependencies for Google Colab runtime compatibility`
+- **Ref**: `chk-564354`
+
