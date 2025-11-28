@@ -2678,3 +2678,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `fix(dataset): update download URLs for public benchmark dataset`
 - **Ref**: `sync-769556`
 
+### Sprint Update: 2025-11-28 12:34:23
+- **Scope**: `perf(data): enable prefetching and parallel map on input pipeline`
+- **Ref**: `sync-956422`
+
