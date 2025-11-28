@@ -1594,3 +1594,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(resources): curate list of open-source datasets and study group reading materials`
 - **Ref**: `chk-464351`
 
+### Milestone: 2025-11-28 21:12:48
+- **Scope**: `chore(meta): update repository license badges and social preview assets`
+- **Ref**: `chk-620902`
+
