@@ -1658,3 +1658,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(resources): curate list of open-source datasets and study group reading materials`
 - **Ref**: `chk-750179`
 
+### Milestone: 2025-12-05 17:12:25
+- **Scope**: `style(notebook): standardize markdown explanations and code cell outputs`
+- **Ref**: `chk-995617`
+
