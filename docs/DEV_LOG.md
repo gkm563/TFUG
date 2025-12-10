@@ -2738,3 +2738,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(cheatsheet): add tensor operations quick reference sheet`
 - **Ref**: `sync-758575`
 
+### Sprint Update: 2025-12-10 11:27:42
+- **Scope**: `fix(dataset): update download URLs for public benchmark dataset`
+- **Ref**: `sync-638787`
+
