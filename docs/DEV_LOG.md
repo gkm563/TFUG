@@ -1786,3 +1786,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `refactor(export): standardize SavedModel and ONNX export utility scripts`
 - **Ref**: `chk-639622`
 
+### Milestone: 2025-12-27 10:40:05
+- **Scope**: `test(model): verify reproducibility of training loss convergence across seeds`
+- **Ref**: `chk-834162`
+
