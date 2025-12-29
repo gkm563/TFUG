@@ -1802,3 +1802,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(resources): curate list of open-source datasets and study group reading materials`
 - **Ref**: `chk-592991`
 
+### Milestone: 2025-12-29 21:13:01
+- **Scope**: `feat(demo): build interactive Gradio demo interface for community showcase`
+- **Ref**: `chk-304837`
+
