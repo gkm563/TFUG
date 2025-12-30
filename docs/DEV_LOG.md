@@ -1810,3 +1810,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `test(model): verify reproducibility of training loss convergence across seeds`
 - **Ref**: `chk-361655`
 
+### Milestone: 2025-12-30 12:25:10
+- **Scope**: `chore(meta): update repository license badges and social preview assets`
+- **Ref**: `chk-457343`
+
