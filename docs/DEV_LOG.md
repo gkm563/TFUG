@@ -1814,3 +1814,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `chore(meta): update repository license badges and social preview assets`
 - **Ref**: `chk-457343`
 
+### Milestone: 2025-12-31 12:15:04
+- **Scope**: `feat(notebooks): add hands-on computer vision tutorial notebook with transfer learning`
+- **Ref**: `chk-629326`
+
