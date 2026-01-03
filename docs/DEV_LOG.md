@@ -1834,3 +1834,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(roadmap): publish quarterly community meetup schedule and speaker CFP`
 - **Ref**: `chk-662940`
 
+### Milestone: 2026-01-03 17:26:58
+- **Scope**: `style(notebook): standardize markdown explanations and code cell outputs`
+- **Ref**: `chk-568933`
+
