@@ -1838,3 +1838,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `style(notebook): standardize markdown explanations and code cell outputs`
 - **Ref**: `chk-568933`
 
+### Milestone: 2026-01-05 15:39:46
+- **Scope**: `feat(notebooks): add hands-on computer vision tutorial notebook with transfer learning`
+- **Ref**: `chk-900351`
+
