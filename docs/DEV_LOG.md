@@ -1842,3 +1842,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `feat(notebooks): add hands-on computer vision tutorial notebook with transfer learning`
 - **Ref**: `chk-900351`
 
+### Milestone: 2026-01-05 19:04:34
+- **Scope**: `refactor(code): streamline dataset loading pipelines using tf.data.Dataset API`
+- **Ref**: `chk-461817`
+
