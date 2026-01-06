@@ -1850,3 +1850,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `refactor(code): streamline dataset loading pipelines using tf.data.Dataset API`
 - **Ref**: `chk-951812`
 
+### Milestone: 2026-01-06 16:24:07
+- **Scope**: `chore(meta): update repository license badges and social preview assets`
+- **Ref**: `chk-652479`
+
