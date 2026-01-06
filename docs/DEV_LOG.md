@@ -1854,3 +1854,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `chore(meta): update repository license badges and social preview assets`
 - **Ref**: `chk-652479`
 
+### Milestone: 2026-01-06 22:48:28
+- **Scope**: `refactor(export): standardize SavedModel and ONNX export utility scripts`
+- **Ref**: `chk-121255`
+
