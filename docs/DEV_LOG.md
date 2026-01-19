@@ -1954,3 +1954,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `perf(eval): optimize batch inference throughput using model quantization techniques`
 - **Ref**: `chk-507210`
 
+### Milestone: 2026-01-19 11:08:45
+- **Scope**: `chore(meta): update repository license badges and social preview assets`
+- **Ref**: `chk-585878`
+
