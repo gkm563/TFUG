@@ -1950,3 +1950,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(resources): curate list of open-source datasets and study group reading materials`
 - **Ref**: `chk-484962`
 
+### Milestone: 2026-01-19 10:32:45
+- **Scope**: `perf(eval): optimize batch inference throughput using model quantization techniques`
+- **Ref**: `chk-507210`
+
