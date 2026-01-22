@@ -1966,3 +1966,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `perf(eval): optimize batch inference throughput using model quantization techniques`
 - **Ref**: `chk-882991`
 
+### Milestone: 2026-01-22 15:55:59
+- **Scope**: `refactor(export): standardize SavedModel and ONNX export utility scripts`
+- **Ref**: `chk-989866`
+
