@@ -2002,3 +2002,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(resources): curate list of open-source datasets and study group reading materials`
 - **Ref**: `chk-351012`
 
+### Milestone: 2026-01-30 18:43:25
+- **Scope**: `refactor(code): streamline dataset loading pipelines using tf.data.Dataset API`
+- **Ref**: `chk-363674`
+
