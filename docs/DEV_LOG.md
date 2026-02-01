@@ -2014,3 +2014,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `fix(colab): update pip dependencies for Google Colab runtime compatibility`
 - **Ref**: `chk-372109`
 
+### Milestone: 2026-02-01 14:59:00
+- **Scope**: `style(notebook): standardize markdown explanations and code cell outputs`
+- **Ref**: `chk-617745`
+
