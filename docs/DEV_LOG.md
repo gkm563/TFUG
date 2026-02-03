@@ -2030,3 +2030,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `fix(colab): update pip dependencies for Google Colab runtime compatibility`
 - **Ref**: `chk-448092`
 
+### Milestone: 2026-02-03 15:28:41
+- **Scope**: `feat(notebooks): add hands-on computer vision tutorial notebook with transfer learning`
+- **Ref**: `chk-915963`
+
