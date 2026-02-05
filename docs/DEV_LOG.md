@@ -2038,3 +2038,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `docs(resources): curate list of open-source datasets and study group reading materials`
 - **Ref**: `chk-411557`
 
+### Milestone: 2026-02-05 12:20:41
+- **Scope**: `feat(notebooks): add hands-on computer vision tutorial notebook with transfer learning`
+- **Ref**: `chk-133234`
+
