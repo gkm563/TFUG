@@ -2050,3 +2050,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `chore(meta): update repository license badges and social preview assets`
 - **Ref**: `chk-329463`
 
+### Milestone: 2026-02-08 11:43:06
+- **Scope**: `docs(roadmap): publish quarterly community meetup schedule and speaker CFP`
+- **Ref**: `chk-191824`
+
