@@ -2070,3 +2070,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `feat(notebooks): add hands-on computer vision tutorial notebook with transfer learning`
 - **Ref**: `chk-831264`
 
+### Milestone: 2026-02-11 17:43:12
+- **Scope**: `fix(hyperparams): fine-tune learning rate schedule and early stopping patience`
+- **Ref**: `chk-737799`
+
