@@ -2218,3 +2218,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `fix(hyperparams): fine-tune learning rate schedule and early stopping patience`
 - **Ref**: `chk-930062`
 
+### Milestone: 2026-03-13 19:41:46
+- **Scope**: `refactor(export): standardize SavedModel and ONNX export utility scripts`
+- **Ref**: `chk-468024`
+
