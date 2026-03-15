@@ -2226,3 +2226,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `refactor(code): streamline dataset loading pipelines using tf.data.Dataset API`
 - **Ref**: `chk-789760`
 
+### Milestone: 2026-03-15 11:17:41
+- **Scope**: `refactor(export): standardize SavedModel and ONNX export utility scripts`
+- **Ref**: `chk-795685`
+
