@@ -2230,3 +2230,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `refactor(export): standardize SavedModel and ONNX export utility scripts`
 - **Ref**: `chk-795685`
 
+### Milestone: 2026-03-15 13:06:17
+- **Scope**: `perf(eval): optimize batch inference throughput using model quantization techniques`
+- **Ref**: `chk-714715`
+
