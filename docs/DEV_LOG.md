@@ -2242,3 +2242,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `fix(hyperparams): fine-tune learning rate schedule and early stopping patience`
 - **Ref**: `chk-199509`
 
+### Milestone: 2026-03-17 16:30:45
+- **Scope**: `chore(meta): update repository license badges and social preview assets`
+- **Ref**: `chk-164522`
+
