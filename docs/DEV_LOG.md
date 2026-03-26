@@ -2270,3 +2270,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `refactor(export): standardize SavedModel and ONNX export utility scripts`
 - **Ref**: `chk-204505`
 
+### Milestone: 2026-03-26 14:11:01
+- **Scope**: `feat(demo): build interactive Gradio demo interface for community showcase`
+- **Ref**: `chk-339160`
+
