@@ -26,3 +26,7 @@ Daily activity and development milestones tracking.
 - **Activity**: feat(assets): optimize workshop resources
 - **Checkpoint**: `918743`
 
+### Entry: 2026-04-04 15:29:06
+- **Activity**: fix: resolve broken links in community readme
+- **Checkpoint**: `724476`
+
