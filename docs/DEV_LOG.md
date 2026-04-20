@@ -122,3 +122,7 @@ Daily activity and development milestones tracking.
 - **Activity**: style: standardize markdown formatting across repo
 - **Checkpoint**: `961853`
 
+### Entry: 2026-04-20 10:07:07
+- **Activity**: fix: resolve broken links in community readme
+- **Checkpoint**: `400872`
+
