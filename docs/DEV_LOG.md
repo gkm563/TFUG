@@ -3374,3 +3374,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `refactor(trainer): standardize training loops with tf.keras.callbacks`
 - **Ref**: `sync-627726`
 
+### Sprint Update: 2026-04-25 12:31:19
+- **Scope**: `fix(dataset): update download URLs for public benchmark dataset`
+- **Ref**: `sync-104510`
+
