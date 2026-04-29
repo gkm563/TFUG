@@ -186,3 +186,7 @@ Daily activity and development milestones tracking.
 - **Activity**: feat(assets): optimize workshop resources
 - **Checkpoint**: `786696`
 
+### Entry: 2026-04-29 17:40:38
+- **Activity**: docs: sync event roadmap and speaker checklist
+- **Checkpoint**: `714617`
+
