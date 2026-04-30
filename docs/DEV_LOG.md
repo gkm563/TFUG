@@ -3414,3 +3414,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `test(pipeline): verify data augmentation reproducibility with fixed seed`
 - **Ref**: `sync-494804`
 
+### Sprint Update: 2026-04-30 11:43:52
+- **Scope**: `fix(dataset): update download URLs for public benchmark dataset`
+- **Ref**: `sync-819719`
+
