@@ -274,3 +274,7 @@ Daily activity and development milestones tracking.
 - **Activity**: refactor: improve project structure and naming
 - **Checkpoint**: `433187`
 
+### Entry: 2026-05-11 19:58:51
+- **Activity**: docs: sync event roadmap and speaker checklist
+- **Checkpoint**: `167779`
+
