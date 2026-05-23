@@ -378,3 +378,7 @@ Daily activity and development milestones tracking.
 - **Activity**: style: standardize markdown formatting across repo
 - **Checkpoint**: `104098`
 
+### Entry: 2026-05-23 14:22:04
+- **Activity**: docs: sync event roadmap and speaker checklist
+- **Checkpoint**: `719775`
+
