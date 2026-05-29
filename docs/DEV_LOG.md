@@ -3566,3 +3566,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `feat(nlp): add sentiment analysis transformer walkthrough notebook`
 - **Ref**: `sync-534446`
 
+### Sprint Update: 2026-05-29 14:48:44
+- **Scope**: `style(colab): format notebook markdown headers and badge links`
+- **Ref**: `sync-547823`
+
