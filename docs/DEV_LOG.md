@@ -430,3 +430,7 @@ Daily activity and development milestones tracking.
 - **Activity**: feat(assets): optimize workshop resources
 - **Checkpoint**: `904441`
 
+### Entry: 2026-06-01 17:26:04
+- **Activity**: refactor: improve project structure and naming
+- **Checkpoint**: `591181`
+
