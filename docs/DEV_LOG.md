@@ -3610,3 +3610,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `test(pipeline): verify data augmentation reproducibility with fixed seed`
 - **Ref**: `sync-596168`
 
+### Sprint Update: 2026-06-05 11:16:22
+- **Scope**: `perf(data): enable prefetching and parallel map on input pipeline`
+- **Ref**: `sync-739755`
+
