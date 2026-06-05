@@ -454,3 +454,7 @@ Daily activity and development milestones tracking.
 - **Activity**: docs: update community session guidelines
 - **Checkpoint**: `133243`
 
+### Entry: 2026-06-05 10:31:17
+- **Activity**: docs: sync event roadmap and speaker checklist
+- **Checkpoint**: `755688`
+
