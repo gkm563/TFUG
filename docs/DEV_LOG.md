@@ -558,3 +558,7 @@ Daily activity and development milestones tracking.
 - **Activity**: chore: clean build scripts and linters
 - **Checkpoint**: `104235`
 
+### Entry: 2026-06-22 20:30:43
+- **Activity**: docs: sync event roadmap and speaker checklist
+- **Checkpoint**: `641315`
+
