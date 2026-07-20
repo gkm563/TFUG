@@ -3794,3 +3794,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `feat(nlp): add sentiment analysis transformer walkthrough notebook`
 - **Ref**: `sync-505203`
 
+### Sprint Update: 2026-07-20 13:00:09
+- **Scope**: `fix(dataset): update download URLs for public benchmark dataset`
+- **Ref**: `sync-748238`
+
