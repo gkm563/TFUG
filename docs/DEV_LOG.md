@@ -750,3 +750,7 @@ Daily activity and development milestones tracking.
 - **Activity**: fix: resolve broken links in community readme
 - **Checkpoint**: `350258`
 
+### Entry: 2026-07-26 15:36:26
+- **Activity**: docs: update community session guidelines
+- **Checkpoint**: `422627`
+
