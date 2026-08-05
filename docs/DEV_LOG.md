@@ -810,3 +810,7 @@ Daily activity and development milestones tracking.
 - **Activity**: chore: clean build scripts and linters
 - **Checkpoint**: `204442`
 
+### Entry: 2026-08-05 11:27:21
+- **Activity**: fix: resolve broken links in community readme
+- **Checkpoint**: `795194`
+
