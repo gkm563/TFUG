@@ -131,7 +131,7 @@ npm install
 ### 2. Set Up Environment Variables
 Create `.env.local` in the root directory:
 ```env
-GOOGLE_API_KEY=AIzaSyYourActualKeyHere
+GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY_HERE
 GEMMA_MODEL=gemma-2-27b-it
 ```
 
@@ -150,7 +150,7 @@ To deploy your own instance to Vercel:
 1. Fork or push this repository to your GitHub account.
 2. Go to [vercel.com/new](https://vercel.com/new) and select the repository.
 3. Under **Environment Variables**, add:
-   - `GOOGLE_API_KEY` = `AIzaSy...`
+   - `GOOGLE_API_KEY` = `YOUR_GOOGLE_API_KEY_HERE`
    - `GEMMA_MODEL` = `gemma-2-27b-it`
 4. Click **Deploy**. Vercel will auto-detect Next.js and build the application cleanly.
 
