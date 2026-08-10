@@ -102,7 +102,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#090d16] text-slate-100 selection:bg-purple-500 selection:text-white">
+    <div className="min-h-screen flex flex-col bg-[#070a12] text-slate-100 selection:bg-purple-500 selection:text-white">
       
       {/* Top Navigation Bar */}
       <Header
@@ -111,8 +111,8 @@ export default function Home() {
         onOpenChecklist={() => setIsChecklistOpen(true)}
       />
 
-      {/* Main Studio Body */}
-      <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 flex flex-col lg:flex-row gap-6">
+      {/* Main Studio Body - Clean Responsive Layout */}
+      <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 flex flex-col lg:flex-row gap-6 items-start">
         
         {/* Sidebar Controls */}
         <Sidebar
@@ -123,8 +123,8 @@ export default function Home() {
           onClearHistory={handleClearHistory}
         />
 
-        {/* Center Studio Area */}
-        <div className="flex-1 flex flex-col gap-6 min-w-0">
+        {/* Center Studio Area - Takes up remaining width */}
+        <div className="flex-1 min-w-0 w-full flex flex-col gap-6">
           
           {/* Workspace Input Editor */}
           <StudioWorkspace
