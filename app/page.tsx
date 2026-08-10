@@ -6,11 +6,11 @@ import { Sidebar, StudioMode, HistoryItem } from '@/components/Sidebar';
 import { StudioWorkspace } from '@/components/StudioWorkspace';
 import { ResultViewer } from '@/components/ResultViewer';
 import { KaggleChecklistModal } from '@/components/KaggleChecklistModal';
-import { Sparkles, Shield, Cpu, ExternalLink } from 'lucide-react';
+import { Shield, ExternalLink } from 'lucide-react';
 
 export default function Home() {
   const [selectedModel, setSelectedModel] = useState('gemma-2-27b-it');
-  const [activeMode, setActiveMode] = useState<StudioMode>('explainer');
+  const [activeMode, setActiveMode] = useState<StudioMode>('agent');
   const [prompt, setPrompt] = useState('');
   const [temperature, setTemperature] = useState(0.7);
   const [tone, setTone] = useState('Pragmatic');
@@ -71,7 +71,7 @@ export default function Home() {
           mode: activeMode,
           customModel: selectedModel,
           temperature,
-          systemPrompt: tone ? `Explain in a ${tone} tone with clear headings.` : undefined,
+          systemPrompt: tone ? `Explain in a ${tone} tone.` : undefined,
         }),
       });
 
@@ -156,13 +156,13 @@ export default function Home() {
       <footer className="w-full border-t border-white/10 py-4 px-6 text-xs text-slate-500 glass-panel mt-auto">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-2">
-            <span className="font-semibold text-slate-300">MindSpark Gemma</span>
+            <span className="font-semibold text-slate-300">MindSpark Gemma 4 Engine</span>
             <span>•</span>
-            <span>Kaggle Competition Entry (TFUG Prayagraj)</span>
+            <span>Kaggle Build with Gemma Competition (TFUG Prayagraj)</span>
           </div>
           <div className="flex items-center gap-4 text-slate-400">
             <span className="flex items-center gap-1">
-              <Shield className="w-3.5 h-3.5 text-emerald-400" /> Key Isolated on Server
+              <Shield className="w-3.5 h-3.5 text-emerald-400" /> Key Server-Side Isolated
             </span>
             <a
               href="https://aistudio.google.com"

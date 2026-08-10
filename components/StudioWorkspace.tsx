@@ -11,7 +11,10 @@ import {
   AlertTriangle,
   Lightbulb,
   CornerDownLeft,
-  Key
+  Key,
+  Bot,
+  Stethoscope,
+  Sprout
 } from 'lucide-react';
 
 interface StudioWorkspaceProps {
@@ -43,8 +46,26 @@ export const StudioWorkspace: React.FC<StudioWorkspaceProps> = ({
 }) => {
   const [showSettings, setShowSettings] = useState(false);
 
-  // Preset example prompts for each mode
+  // Preset inspiration prompts for each mode (Dual Track Ready)
   const samplePrompts: Record<StudioMode, string[]> = {
+    agent: [
+      'Deconstruct Microservice System Architecture with Mermaid diagram',
+      'Autonomous Agent Tool Execution pipeline for Redis Caching',
+      'Function Calling workflow for Distributed Log Anomaly Detection',
+      'Autonomous API Gateway Rate Limiting & Load Balancing',
+    ],
+    healthcare: [
+      'Superbug Antibiotic Resistance Stewardship for MRSA Strains',
+      'Clinical Triage Protocol for Acute Respiratory Infection',
+      'Pharmacological Drug Interaction & Renal Clearance Calculation',
+      'Hospital Sepsis Early Warning Indicator Protocol',
+    ],
+    agricivic: [
+      'Crop Foliar Disease Diagnostic & Organic Treatment Plan',
+      'Soil Nitrogen Depletion & Subsurface Drip Irrigation Tuning',
+      'Municipal Civic Infrastructure Severity & Repair Dispatch',
+      'Urban Flood Drainage Triage & Watershed Risk Assessment',
+    ],
     explainer: [
       'Explain Transformer Self-Attention in simple mental models',
       'How does Quantum Entanglement work for high school students?',
@@ -85,6 +106,15 @@ export const StudioWorkspace: React.FC<StudioWorkspaceProps> = ({
     }
   };
 
+  const getModeTitle = () => {
+    switch (activeMode) {
+      case 'agent': return '🤖 Autonomous Agent & Tool Calling Engine';
+      case 'healthcare': return '🩺 MedGemma Clinical & Superbug Hub';
+      case 'agricivic': return '🌾 AgriCivic Diagnostic & Soil Hub';
+      default: return `${activeMode.toUpperCase()} Workspace`;
+    }
+  };
+
   return (
     <div className="w-full glass-panel rounded-2xl p-4 sm:p-6 flex flex-col gap-4 border border-white/10 relative overflow-hidden">
       
@@ -95,8 +125,8 @@ export const StudioWorkspace: React.FC<StudioWorkspaceProps> = ({
       <div className="flex flex-wrap items-center justify-between gap-2 pb-2 border-b border-white/10">
         <div className="flex items-center gap-2">
           <Sparkles className="w-4 h-4 text-purple-400" />
-          <h2 className="text-sm font-bold tracking-tight text-white capitalize">
-            {activeMode} Studio Workspace
+          <h2 className="text-sm font-bold tracking-tight text-white">
+            {getModeTitle()}
           </h2>
         </div>
 
@@ -176,7 +206,7 @@ export const StudioWorkspace: React.FC<StudioWorkspaceProps> = ({
       <div>
         <div className="flex items-center gap-1.5 mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-400">
           <Lightbulb className="w-3 h-3 text-amber-400" />
-          <span>Quick Inspiration Templates:</span>
+          <span>Competition Preset Prompts:</span>
         </div>
         <div className="flex flex-wrap gap-1.5">
           {samplePrompts[activeMode]?.map((sample, idx) => (
@@ -201,12 +231,6 @@ export const StudioWorkspace: React.FC<StudioWorkspaceProps> = ({
           <div className="flex-1">
             <p className="font-semibold text-red-200">Gemma Request Notice</p>
             <p className="mt-0.5 leading-relaxed text-red-300/90">{error}</p>
-            {error.includes('GOOGLE_API_KEY') && (
-              <div className="mt-2 p-2 rounded bg-black/40 border border-red-500/20 text-[11px] font-mono text-amber-300 flex items-center gap-1.5">
-                <Key className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                <span>Tip: Add GOOGLE_API_KEY to .env.local locally or Vercel Environment Variables.</span>
-              </div>
-            )}
           </div>
         </div>
       )}
@@ -217,7 +241,7 @@ export const StudioWorkspace: React.FC<StudioWorkspaceProps> = ({
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder={`Enter your topic, question, or code snippet for Gemma (${activeMode} mode)...`}
+          placeholder={`Enter your query or prompt for Gemma (${activeMode} mode)...`}
           rows={5}
           className="w-full glass-input rounded-xl p-4 text-sm text-slate-100 placeholder-slate-500 resize-none font-sans focus:ring-0"
         />
@@ -246,12 +270,12 @@ export const StudioWorkspace: React.FC<StudioWorkspaceProps> = ({
               {isLoading ? (
                 <>
                   <Loader2 className="w-4 h-4 animate-spin text-white" />
-                  <span>Gemma Thinking...</span>
+                  <span>Gemma Executing...</span>
                 </>
               ) : (
                 <>
                   <Wand2 className="w-4 h-4 text-white" />
-                  <span>Generate with Gemma</span>
+                  <span>Execute with Gemma</span>
                 </>
               )}
             </button>
