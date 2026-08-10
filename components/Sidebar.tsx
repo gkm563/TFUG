@@ -11,10 +11,11 @@ import {
   HelpCircle, 
   History, 
   Trash2, 
-  ExternalLink,
   ChevronRight,
   Sparkles,
-  Award
+  Award,
+  Cpu,
+  ShieldCheck
 } from 'lucide-react';
 
 export type StudioMode = 
@@ -57,7 +58,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
       icon: Bot,
       desc: 'Tool calling & Mermaid flowcharts',
       color: 'text-cyan-400',
-      track: 'Autonomous Agent Track',
+      track: 'Autonomous Agent Engine',
     },
     {
       id: 'healthcare',
@@ -65,7 +66,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
       icon: Stethoscope,
       desc: 'Superbug & stewardship triage',
       color: 'text-rose-400',
-      track: 'GenAI for Good Track',
+      track: 'GenAI Healthcare Engine',
     },
     {
       id: 'agricivic',
@@ -73,7 +74,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
       icon: Sprout,
       desc: 'Crop foliage & soil health advisor',
       color: 'text-emerald-400',
-      track: 'GenAI for Good Track',
+      track: 'GenAI Impact Engine',
     },
     {
       id: 'explainer',
@@ -108,14 +109,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
   return (
     <aside className="w-full lg:w-72 xl:w-80 glass-panel rounded-2xl p-4 flex flex-col gap-5 shrink-0 border border-white/10">
       
-      {/* Track Badge Banner */}
+      {/* Professional Engine Banner */}
       <div className="p-3 rounded-xl bg-gradient-to-r from-purple-950/60 via-blue-950/60 to-cyan-950/60 border border-purple-500/30">
         <div className="flex items-center gap-1.5 text-xs font-bold text-purple-300 mb-1">
           <Award className="w-4 h-4 text-amber-400" />
-          <span>Competition Architecture</span>
+          <span>Enterprise AI Architecture</span>
         </div>
         <p className="text-[11px] text-slate-300 leading-snug">
-          Covers <strong className="text-cyan-300">Autonomous Agent</strong> & <strong className="text-emerald-300">GenAI for Good</strong> tracks.
+          Dual Engine Core: Integrates <strong className="text-cyan-300">Autonomous Tool Agents</strong> & <strong className="text-emerald-300">Clinical Impact Diagnostics</strong>.
         </p>
       </div>
 
@@ -123,7 +124,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
       <div>
         <h2 className="text-xs font-bold uppercase tracking-wider text-slate-400 px-2 mb-2 flex items-center gap-1.5">
           <Sparkles className="w-3.5 h-3.5 text-purple-400" />
-          <span>Gemma Engines</span>
+          <span>Gemma Intelligence Engines</span>
         </h2>
         
         <div className="flex flex-col gap-1.5">
@@ -169,7 +170,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <div className="flex items-center justify-between px-2 mb-2">
           <h2 className="text-xs font-bold uppercase tracking-wider text-slate-400 flex items-center gap-1.5">
             <History className="w-3.5 h-3.5 text-cyan-400" />
-            <span>History</span>
+            <span>Agentic History</span>
           </h2>
           {history.length > 0 && (
             <button
@@ -212,32 +213,19 @@ export const Sidebar: React.FC<SidebarProps> = ({
         </div>
       </div>
 
-      {/* Quick Submission Links */}
+      {/* Professional Footer */}
       <div className="pt-3 border-t border-white/10 text-xs text-slate-400 space-y-2">
         <div className="flex items-center justify-between text-[11px]">
-          <span className="font-semibold text-slate-300">Build with Gemma</span>
-          <span className="text-purple-400 font-mono font-bold">TFUG Prayagraj</span>
+          <span className="font-semibold text-slate-300 flex items-center gap-1">
+            <Cpu className="w-3.5 h-3.5 text-cyan-400" /> Gemma Core v4.0
+          </span>
+          <span className="text-emerald-400 font-mono text-[10px] bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20 font-semibold flex items-center gap-1">
+            <ShieldCheck className="w-3 h-3 text-emerald-400" /> Operational
+          </span>
         </div>
-        <div className="flex items-center gap-2">
-          <a
-            href="https://github.com/gkm563/TFUG"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 text-center py-1.5 rounded-md bg-slate-900/80 hover:bg-slate-800 text-slate-300 hover:text-white border border-white/10 flex items-center justify-center gap-1 transition-colors text-[11px]"
-          >
-            <span>GitHub Code</span>
-            <ExternalLink className="w-3 h-3 text-slate-400" />
-          </a>
-          <a
-            href="https://forms.gle/xz9Zu7VWn8aEvM6k8"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 text-center py-1.5 rounded-md bg-purple-950/40 hover:bg-purple-900/50 text-purple-300 hover:text-purple-200 border border-purple-500/20 flex items-center justify-center gap-1 transition-colors text-[11px]"
-          >
-            <span>Google Form</span>
-            <ExternalLink className="w-3 h-3 text-purple-400" />
-          </a>
-        </div>
+        <p className="text-[10px] text-slate-500 leading-normal">
+          Powered exclusively by Google DeepMind Gemma 2 architecture with isolated server-side execution.
+        </p>
       </div>
 
     </aside>

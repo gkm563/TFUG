@@ -1,7 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
-import { Sparkles, Cpu, CheckCircle2, FileText, ExternalLink, HelpCircle, ShieldCheck } from 'lucide-react';
+import React from 'react';
+import { Sparkles, Cpu, ShieldCheck, FileText } from 'lucide-react';
 
 interface HeaderProps {
   selectedModel: string;
@@ -21,7 +21,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Brand Logo & Name */}
         <div className="flex items-center gap-3">
           <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-purple-600 to-cyan-400 p-[1px] glow-primary">
-            <div className="w-full h-full bg-[#0d1322] rounded-[11px] flex items-center justify-center">
+            <div className="w-full h-full bg-[#070a12] rounded-[11px] flex items-center justify-center">
               <Sparkles className="w-5 h-5 text-blue-400 animate-pulse" />
             </div>
           </div>
@@ -31,11 +31,11 @@ export const Header: React.FC<HeaderProps> = ({
                 MindSpark <span className="text-gradient-gemma font-extrabold">Gemma</span>
               </h1>
               <span className="text-[10px] font-semibold tracking-wide uppercase px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/30">
-                v2.0
+                v4.0 Enterprise
               </span>
             </div>
             <p className="text-xs text-slate-400 hidden sm:block">
-              AI Study & Technical Learning Assistant • Powered exclusively by Google Gemma
+              Autonomous AI Engine & Clinical Architecture Studio • Powered by Google Gemma
             </p>
           </div>
         </div>
@@ -46,17 +46,17 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Gemma Model Selection Selector */}
           <div className="flex items-center gap-2 bg-slate-900/80 border border-white/10 rounded-lg px-3 py-1.5 text-xs text-slate-300">
             <Cpu className="w-4 h-4 text-cyan-400 shrink-0" />
-            <span className="hidden md:inline font-medium text-slate-400">Model:</span>
+            <span className="hidden md:inline font-medium text-slate-400">Model Engine:</span>
             <select
               value={selectedModel}
               onChange={(e) => setSelectedModel(e.target.value)}
               className="bg-transparent text-slate-100 font-mono text-xs focus:outline-none cursor-pointer font-medium"
             >
               <option value="gemma-2-27b-it" className="bg-slate-900 text-slate-100">
-                gemma-2-27b-it (Recommended)
+                gemma-2-27b-it (High Reasoning)
               </option>
               <option value="gemma-2-9b-it" className="bg-slate-900 text-slate-100">
-                gemma-2-9b-it (Fast)
+                gemma-2-9b-it (Balanced)
               </option>
               <option value="gemma-2-2b-it" className="bg-slate-900 text-slate-100">
                 gemma-2-2b-it (Lightweight)
@@ -64,19 +64,19 @@ export const Header: React.FC<HeaderProps> = ({
             </select>
           </div>
 
-          {/* Kaggle Checklist Button */}
+          {/* Architecture Overview Specs Button */}
           <button
             onClick={onOpenChecklist}
             className="flex items-center gap-1.5 bg-gradient-to-r from-purple-600/30 to-blue-600/30 hover:from-purple-600/40 hover:to-blue-600/40 text-purple-200 border border-purple-500/30 px-3 py-1.5 rounded-lg text-xs font-medium transition-all shadow-sm"
           >
-            <CheckCircle2 className="w-4 h-4 text-purple-400" />
-            <span className="hidden sm:inline">Hackathon Checklist</span>
+            <FileText className="w-4 h-4 text-purple-400" />
+            <span className="hidden sm:inline">Architecture Overview</span>
           </button>
 
           {/* Key Safe Security Badge */}
           <div className="hidden lg:flex items-center gap-1.5 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2.5 py-1.5 rounded-lg text-xs font-medium">
             <ShieldCheck className="w-3.5 h-3.5" />
-            <span>Key Safe (Server-Side Only)</span>
+            <span>Key Safe (Server-Isolated)</span>
           </div>
 
         </div>
