@@ -5,7 +5,6 @@ import { Header } from '@/components/Header';
 import { Sidebar, StudioMode, HistoryItem } from '@/components/Sidebar';
 import { StudioWorkspace } from '@/components/StudioWorkspace';
 import { ResultViewer } from '@/components/ResultViewer';
-import { KaggleChecklistModal } from '@/components/KaggleChecklistModal';
 import { Shield, ExternalLink } from 'lucide-react';
 
 export default function Home() {
@@ -20,7 +19,6 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null);
   
   const [history, setHistory] = useState<HistoryItem[]>([]);
-  const [isChecklistOpen, setIsChecklistOpen] = useState(false);
 
   // Load saved history on mount
   useEffect(() => {
@@ -108,7 +106,6 @@ export default function Home() {
       <Header
         selectedModel={selectedModel}
         setSelectedModel={setSelectedModel}
-        onOpenChecklist={() => setIsChecklistOpen(true)}
       />
 
       {/* Main Studio Body - Clean Responsive Layout */}
@@ -123,7 +120,7 @@ export default function Home() {
           onClearHistory={handleClearHistory}
         />
 
-        {/* Center Studio Area - Takes up remaining width */}
+        {/* Center Studio Area */}
         <div className="flex-1 min-w-0 w-full flex flex-col gap-6">
           
           {/* Workspace Input Editor */}
@@ -158,7 +155,7 @@ export default function Home() {
           <div className="flex items-center gap-2">
             <span className="font-semibold text-slate-300">MindSpark Gemma 4 Engine</span>
             <span>•</span>
-            <span>Kaggle Build with Gemma Competition (TFUG Prayagraj)</span>
+            <span>Enterprise AI & Clinical Architecture Studio</span>
           </div>
           <div className="flex items-center gap-4 text-slate-400">
             <span className="flex items-center gap-1">
@@ -176,12 +173,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-
-      {/* Kaggle Submission Checklist Modal */}
-      <KaggleChecklistModal
-        isOpen={isChecklistOpen}
-        onClose={() => setIsChecklistOpen(false)}
-      />
 
     </div>
   );

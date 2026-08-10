@@ -1,18 +1,16 @@
 'use client';
 
 import React from 'react';
-import { Sparkles, Cpu, ShieldCheck, FileText } from 'lucide-react';
+import { Sparkles, Cpu, ShieldCheck } from 'lucide-react';
 
 interface HeaderProps {
   selectedModel: string;
   setSelectedModel: (model: string) => void;
-  onOpenChecklist: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
   selectedModel,
   setSelectedModel,
-  onOpenChecklist,
 }) => {
   return (
     <header className="w-full glass-panel sticky top-0 z-40 border-b border-white/10 px-4 py-3 sm:px-6">
@@ -64,17 +62,8 @@ export const Header: React.FC<HeaderProps> = ({
             </select>
           </div>
 
-          {/* Architecture Overview Specs Button */}
-          <button
-            onClick={onOpenChecklist}
-            className="flex items-center gap-1.5 bg-gradient-to-r from-purple-600/30 to-blue-600/30 hover:from-purple-600/40 hover:to-blue-600/40 text-purple-200 border border-purple-500/30 px-3 py-1.5 rounded-lg text-xs font-medium transition-all shadow-sm"
-          >
-            <FileText className="w-4 h-4 text-purple-400" />
-            <span className="hidden sm:inline">Architecture Overview</span>
-          </button>
-
           {/* Key Safe Security Badge */}
-          <div className="hidden lg:flex items-center gap-1.5 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2.5 py-1.5 rounded-lg text-xs font-medium">
+          <div className="flex items-center gap-1.5 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1.5 rounded-lg text-xs font-medium">
             <ShieldCheck className="w-3.5 h-3.5" />
             <span>Key Safe (Server-Isolated)</span>
           </div>
