@@ -878,3 +878,7 @@ Daily activity and development milestones tracking.
 - **Activity**: docs: sync event roadmap and speaker checklist
 - **Checkpoint**: `883601`
 
+### Entry: 2026-08-16 16:37:54
+- **Activity**: fix: resolve broken links in community readme
+- **Checkpoint**: `769539`
+
