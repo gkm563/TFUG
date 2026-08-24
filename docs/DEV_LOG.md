@@ -3990,3 +3990,7 @@ Daily activity and development milestones tracking.
 - **Scope**: `perf(data): enable prefetching and parallel map on input pipeline`
 - **Ref**: `sync-725812`
 
+### Sprint Update: 2026-08-24 18:58:15
+- **Scope**: `style(colab): format notebook markdown headers and badge links`
+- **Ref**: `sync-766793`
+
