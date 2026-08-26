@@ -938,3 +938,7 @@ Daily activity and development milestones tracking.
 - **Activity**: feat(assets): optimize workshop resources
 - **Checkpoint**: `561581`
 
+### Entry: 2026-08-26 16:01:17
+- **Activity**: style: standardize markdown formatting across repo
+- **Checkpoint**: `174681`
+
