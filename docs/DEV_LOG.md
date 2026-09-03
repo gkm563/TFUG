@@ -982,3 +982,7 @@ Daily activity and development milestones tracking.
 - **Activity**: refactor: improve project structure and naming
 - **Checkpoint**: `909833`
 
+### Entry: 2026-09-03 14:19:30
+- **Activity**: fix: resolve broken links in community readme
+- **Checkpoint**: `357100`
+
